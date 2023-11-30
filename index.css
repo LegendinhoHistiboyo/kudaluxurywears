@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}body{
+    margin: auto;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.header{
+    display: flex;
+    background-color: cadetblue;
+    padding: 15px;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+    width: 100%;
+}
+.right{
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    padding-left: 50px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.company-name{
+    text-justify: center;
+    font-weight: bold;
+    font-size: x-large;
+    padding-left: 120px;
+}
+#shop{
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: 300px;
+}
+.option{
+    width:100%;
+    margin: auto;
+}
+.top-picture{
+    width:50%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 10px;
+    margin: auto;
+}
+.top-center2{
+    padding-top: 10px;
+    min-height: fit-content;
+}
+.item-1{
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+.iw{
+    width: 15rem;
+    height: 25vh;
+}
+.trend{
+    text-align: center;
+    color: darkblue;
+    font-weight: 800;
+    padding-top: 15px;
+}
+.object-descip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding: 5px;
+    color: rgb(50, 86, 116);
+}
+.btn-1{
+    min-width: fit-content;;
+    height: 25px;
+    font-size: x-small;
+}
+.container-3{
+    background-color: beige;
+    width: 85%;
+    height: 12vh;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.advert{
+    padding: 20px;
+}
+.ads{
+    background-color: darkcyan;
+    color: beige;
+    text-align: center;
+    padding: 20px;
+    max-height: 12vh;
+}
+.abs{
+    background-color:cornflowerblue;
+    color: beige;
+    text-align: center;
+    padding: 20px;
+    max-height: 12vh;
+}
+.footer{
+    background-color: whitesmoke;
+    width: 100%;
+    margin: auto;
+    padding: 10px, 20px;
+    font-size: larger;
+    /* text-align:justify; */
+}
+.social{
+    width: 15px;
+    height: 15px;
+}
+
+/* cloth collections */
+.other{
+    display: flex;
+    gap: 5px;
+    font-size: large;
+}
+.contact-1{
+    text-align: left;
+}
+.back-btn{
+    padding: 5px;
+}
+.butt1{
+    padding-top: 20px;
+}
+.reg{
+    text-align: center;
+    font-size: x-large;
+}
+.social-buttons{
+    display: flex;
+    gap: 30px;
+}
